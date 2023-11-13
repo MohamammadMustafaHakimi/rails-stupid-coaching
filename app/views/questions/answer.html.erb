@@ -1,0 +1,27 @@
+
+<%= link_to "Home Page", ask_path %>
+
+<%# <=%
+  STOP_MESSAGE = "I am going to work right now!"
+  def coach_answer(your_message)
+    if your_message == STOP_MESSAGE || your_message == STOP_MESSAGE.upcase
+      ""
+    elsif your_message.end_with?("?")
+      @answers[0]
+    <% %>
+<%#
+    else
+      @answers[1]
+    end
+  end %>
+<%# %>
+<div></div>
+
+<li>your question: <%= @question  %></li>
+
+<li>coache's answer: <%= @answer  %></li>
+
+<br>
+
+
+<%= "params is: #{params[:question]}" %>
